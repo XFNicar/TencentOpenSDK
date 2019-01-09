@@ -12,11 +12,11 @@ Pod::Spec.new do |s|
   s.version      = "3.3.3"
   s.summary      = "Tencent QQ Open SDK 3.3.3 version"
 
-  s.homepage     = "https://open.tencent.com/"
+  s.homepage     = "https://open.tencent.com"
 
   s.license      = "MIT"
  
-  s.author             = { 'Tencent' => 'https://open.tencent.com/' }
+  s.author             = { 'Tencent' => 'https://open.tencent.com' }
  
   s.platform     = :ios
 
