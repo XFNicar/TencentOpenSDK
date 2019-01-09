@@ -30,6 +30,6 @@ Pod::Spec.new do |s|
 
   s.requires_arc = true
 
-  s.ios.vendored_frameworks = 'Frameworks/*.framework'
+  s.ios.vendored_frameworks = 'Frameworks/TencentOpenAPI.framework'
 
 end
