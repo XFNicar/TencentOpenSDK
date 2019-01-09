@@ -115,6 +115,7 @@ Pod::Spec.new do |s|
   #
 
   # s.framework  = "SomeFramework"
+  s.ios.vendored_frameworks = "Frameworks/TencentOpenAPI.framework"
   s.frameworks          = 'Security', 'SystemConfiguration', 'CoreGraphics', 'CoreTelephony'
 
   # s.frameworks = "SomeFramework", "AnotherFramework"
@@ -135,7 +136,6 @@ Pod::Spec.new do |s|
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
 
-  s.ios.vendored_frameworks = "Frameworks/TencentOpenAPI.framework"
 
 
 end
